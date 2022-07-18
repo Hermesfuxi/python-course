@@ -1,0 +1,23 @@
+{
+  "name": "spark-course",
+  "version": "1.0.0",
+  "description": "Spark 教程",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "nvm use 13.5.0 && gitbook build && gh-pages -d _book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hermesfuxi/spark-course.git"
+  },
+  "keywords": ["建议使用 node v13.5.0"],
+  "author": "hermesfuxi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hermesfuxi/spark-course/issues"
+  },
+  "homepage": "https://github.com/Hermesfuxi/spark-course#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
