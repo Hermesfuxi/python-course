@@ -10,7 +10,6 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
-*/*.iml
 */*.log
 
 # Created by .ignore support plugin (hsz.mobi)
@@ -19,6 +18,7 @@ buildNumber.properties
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 .idea
+.vscode
 
 ## Dependency directory
 ## Commenting this out is preferred by some people, see
