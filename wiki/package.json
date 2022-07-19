@@ -1,10 +1,10 @@
 {
-  "name": "python-course",
+  "name": "c--course",
   "version": "1.0.0",
-  "description": "Python 教程",
+  "description": "python 教程",
   "main": "index.js",
   "scripts": {
-    "deploy": "nvm use 13.5.0 && gitbook build && gh-pages -d _book"
+    "deploy": "gitbook build && gh-pages -d _book"
   },
   "repository": {
     "type": "git",
