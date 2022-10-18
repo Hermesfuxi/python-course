@@ -9,3 +9,5 @@ buildNumber.properties
 
 *.iml
 *.log
+*/.ipynb_checkpoints/
+*/.pytest_cache/
