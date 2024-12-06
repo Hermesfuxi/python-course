@@ -309,7 +309,6 @@ print(np.where(x > 5))
 print(x[np.where(x > 5)])
 print(x[x > 5])
 
-
 # x = np.arange(81).reshape((3, 3, 3, 3)) + 1
 # print(x)
 # np.save('81式.npy', x)
