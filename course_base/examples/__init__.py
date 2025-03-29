@@ -35,28 +35,7 @@ import cmath
 # print(f'{fahrenheit:.1f}华氏度转为摄氏度为{celsius:.1f}')
 
 
-# 九九乘法表
-# for i in range(1, 10):
-#     for j in range(1, i+1):
-#         print(f'{i}*{j}={i*j}', end=" ")
-#     print(end="\n")
+
 
 #
 # 定义一个函数
-def hcf(x, y):
-    """该函数返回两个数的最大公约数"""
-
-    # 获取最小值
-    if x > y:
-        smaller = y
-    else:
-        smaller = x
-
-    hcf = 1
-    for i in range(1, smaller + 1):
-        if ((x % i == 0) and (y % i == 0)):
-            hcf = i
-
-    return hcf
-
-print(hcf(5, 15))

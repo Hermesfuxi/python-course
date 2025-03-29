@@ -1,4 +1,5 @@
 ########### 整数（int）############
+
 a = int()
 print(a) # 默认为0
 
@@ -13,6 +14,7 @@ print(a)
 
 a = int("0101010", base=2) # 二进制转十进制
 print(a)
+print(ord("0101010"))
 
 a = int("11", base=8) # 八进制转十进制
 print(a)

@@ -1,27 +1,28 @@
 # import keyword
-#
 # print(keyword.kwlist)
+# print(keyword.iskeyword('if'))
+
+# print(help(zip))
+# print("="*20)
+#
+# import math
+# print(help(math))
+# print("="*20)
+# print(dir(math))
+
 #
 # a, b, c, d = 1, 1.5, True, 4+3j
 # print(a, b, c, d)
 # print(type(a), type(b), type(c), type(d))
-#
+
+# a = 1
 # flag = isinstance(a, int)
 # print(flag)
 
-# print(help(zip))
-
-# info = {"经理": ("曹操", "刘备", "孙权" , "赵云"), "技术员": ("曹操", "孙权", "张飞", "关羽")}
-# set_1 = set(info["经理"])
-# set_2 = set(info["技术员"])
-# print(f"既是经理也是技术员的有:{set_1 & set_2}")
-# print(f"是经理，但不是技术员的有:{set_1 - set_2}")
-# print(f"经理和技术员共有{len(set_1 | set_2)}人")
-
 # import copy
 # a = b = [333, ("1", "2"), [555, 666], {0: {}}]
-# c = a.copy()
-# d = copy.deepcopy(b)
+# c = a.copy()  # 浅拷贝
+# d = copy.deepcopy(b) # 深拷贝
 #
 # print(id(a) == id(b))
 # print(id(a) == id(c))

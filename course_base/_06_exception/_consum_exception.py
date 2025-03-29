@@ -17,11 +17,13 @@ class NumException(CalcException):
 
 def calcSumInt(num1, num2):
   try:
-    if type(num1) != int or type(num2) != int:
+    if not isinstance(num1, (int, float)) or not isinstance(num2, (int, float)):
       raise NumException(num1, num2)
   except Exception as e:
     print(e)
+    return 0
   else:
     return num1 + num2
 
 print(calcSumInt(1.1, 2.1))
+print(calcSumInt(1.1, '2.1'))

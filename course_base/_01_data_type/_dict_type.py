@@ -30,3 +30,6 @@ value = dic.get("体", "KeyError000")
 print(value) # 返回一个字符串："KeyError"
 # value = dic["体"]
 # print(value)
+
+dic3= {'数学': 12, '语文': 95, '英语': 98, '物理': 32, '化学': 65, '生物': 69}
+print(sum(dic3.values()))

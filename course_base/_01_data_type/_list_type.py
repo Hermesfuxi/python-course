@@ -15,13 +15,20 @@
 # print(li.pop(2)) # 删除索引2对应的元素
 # print(li) # 删除元素后的列表
 
-list1 = [1, 3, 2, 6, 1, 1, 4]
-list2 = list(reversed(list1))
-print(len(list1) - 1 - list2.index(1))
-print(list1)
+# list1 = [1, 3, 2, 6, 1, 1, 4]
+# list2 = list(reversed(list1))
+# print(len(list1) - 1 - list2.index(1))
+# print(list1)
+#
+# var2 = [[123], ]
+# print(type(var2))
+#
+# var6 = (123)
+# print(type(var6))
 
-var2 = [[123], ]
-print(type(var2))
+lst = [1,2,3,4,5,6,7,8,9,10]
+for (index, item) in enumerate(lst):
+    print(index, item)
+    item *= 2
 
-var6 = (123)
-print(type(var6))
+print([item*2 for item in lst])

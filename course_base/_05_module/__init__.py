@@ -1,9 +1,15 @@
-from mymodule import greeting, person1
+from mymodule import greeting, person1, test
 import platform
 
-print(platform.system())
-print(dir(platform))
+# print(platform.system())
+# print(dir(platform))
+#
+# greeting("hermesfuxi")
+#
+# print(person1)
 
-greeting("hermesfuxi")
+# test()
 
-print(person1)
+if __name__ == '__main__':
+    print(__name__)
+    test()

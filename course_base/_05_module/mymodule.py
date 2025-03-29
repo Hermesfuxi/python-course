@@ -6,3 +6,8 @@ person1 = {
   "age": 63,
   "country": "USA"
 }
+
+def test():
+  print(__name__)
+
+print(__name__)
